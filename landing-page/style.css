@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*ESTILOS CABEÇALHO*/
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+ }
+img {
+    width: 150px;
+    height: 150px;
+}
+nav {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'Lucida Sans';
+}
+nav a {
+    background-color: white;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    color: brown;  
+}
+nav a:hover{
+    color:blueviolet;
+}
+/* ESTILOS QUEM SOMOS*/
+h1{
+    text-align: center;
+    background-color:brown;
+    color: white;
+    padding: 10px;
+    font-family: 'Lucida Sans'
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    border: none;
+}
+.column {
+    flex-direction: column;
+}
+.item {
+    flex: 1;
+	margin: 5px;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 2em;
+}
+/* ESTILOS FAQ*/
+#pergunta{
+    padding: 20px;
+    flex: 1 1 200px;
+    justify-content: center;
+    font-family: 'Lucida Sans'
+}
+#pergunta h1{
+    background-color:brown;
+    color: white;
+    padding: 10px;
+}
+#pergunta {
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+/*ESTILOS RODAPÉ*/
+footer {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;  
+    font-family: 'Lucida Sans';
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+@media screen and (max-width: 900px) {
+.logo {
+    width: 50px;
+    height: 50px;
+}
+nav {
+    flex-direction: column;
+}
+header {
+    flex-direction: column;
+}
+nav a {
+    margin-top: 8px;
+    margin-left: 0;
+    padding: 0;     
+}
+div {
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 200px;
+    justify-content: center;
+}
+.redes {
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
